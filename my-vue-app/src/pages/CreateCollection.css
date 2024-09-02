@@ -1,0 +1,189 @@
+.create-container {
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.collections-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  max-height: 70vh;
+  overflow-y: auto;
+  padding-right: 10px;
+}
+
+.collections-grid::-webkit-scrollbar {
+  width: 0;  /* Remove scrollbar space */
+  background: transparent;  /* Optional: just make scrollbar invisible */
+}
+
+.collection-card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.collection-card:hover {
+  transform: translateY(-5px);
+}
+
+.button_2 {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.button_2:hover {
+  background-color: #0056b3;
+}
+
+
+
+
+
+.collection-card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+  text-align: center;
+}
+
+.collection-card:hover {
+  transform: translateY(-5px);
+}
+
+.collection-image {
+  width: 100%;
+  height: auto;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+
+.collection-card {
+  position: relative;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.delete-button {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: wheat;
+  color: black;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.delete-button:hover {
+  background-color: black;
+}
+
+
+
+
+
+
+/* more */
+.collection-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  text-align: center;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.collection-card:hover {
+  transform: scale(1.05);
+}
+
+.collection-thumbnail {
+  width: 100%;
+  height: auto;
+  max-height: 150px;
+  object-fit: cover;
+  margin-bottom: 8px;
+  border-radius: 4px;
+}
+
+h2 {
+  margin-top: 0;
+  font-size: 1.5em;
+}
+
+p {
+  margin: 4px 0;
+  font-size: 1em;
+}
+
+
+
+
+
+/*this the footer code for count
+/* Container styles to ensure footer is not affected by content scroll */
+.create-container {
+  min-height: 1vh; /* Full viewport height to push footer to bottom */
+  padding-bottom: 12px; /* Space for the footer, half of the previous padding */
+}
+
+.footer {
+  position: fixed; /* Fixed positioning to stay at the bottom of the viewport */
+  bottom: 0; /* Align to the bottom of the viewport */
+  left: 50%; /* Center horizontally */
+  transform: translateX(-50%); /* Center the element */
+  display: flex;
+  justify-content: center; /* Center text horizontally */
+  align-items: center; /* Center text vertically */
+  padding: 1px 1px; /* Reduced padding inside the footer */
+  background: linear-gradient(to right, #f7f9fc, #e0eafc); /* Gradient background */
+  border-radius: 1px; /* Rounded corners */
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1); /* Shadow for visual effect */
+  font-size: 14px; /* Font size for text */
+  color: #333; /* Text color */
+  width: auto; /* Adjust width automatically */
+}
+
+
+.footer {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  padding: 0px 0px; /* Adjust padding as needed */
+  background: linear-gradient(to right, #f7f9fc, #e0eafc); /* Light gradient background */
+  border-radius: 1px; /* Rounded corners */
+  position: absolute; /* Fixed position at the bottom */
+  bottom: 0;
+  width: auto; /* Adjust width as needed */
+  box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for visual separation */
+}
+
+.footer p {
+  margin: 0; /* Remove default margin */
+  font-size: 10px; /* Adjust font size as needed */
+  color: #333; /* Text color */
+}
