@@ -43,7 +43,7 @@ const Home = ({ addCollection }) => {
 
       {showModal && (
         <Modal onClose={() => setShowModal(false)}>
-          <h2>Create Collection</h2>
+          <h2>Create Collections</h2>
           <input type="text" name="name" placeholder="Name" value={collectionData.name} onChange={handleChange} />
           <input type="text" name="collectionName" placeholder="Collection Name" value={collectionData.collectionName} onChange={handleChange} />
           <input type="text" name="title" placeholder="Title" value={collectionData.title} onChange={handleChange} />
